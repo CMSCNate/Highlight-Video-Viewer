@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Highlight Viewer Player</title>
+    <link rel="stylesheet" href="/Video Viewer Style.css">
+</head>
+<body>
+    <h1 id="Video_Title"><u>Highlight Video Player</u></h1>
+    <div class="outside_border">
+        <div class="background_image_container">
+            <!-- <img id="soccer_template" src="images/soccer_screen.png" alt="Soccer Template"> -->
+             <form action="/search" method="post">
+                <fieldset title="vid_sub_form">
+                    <legend>Video Submission Form</legend> 
+                    
+                    <!-- <label for="team_box">Team:</label>
+                    <input type="text" id= "team_box" name="teamName"> <br> <br> -->
+
+                    <label for="date_box">Date:</label>
+                    <input type="text" id = "date_box" name="date"> <br> <br>
+
+
+                    <input type="reset" id = "reset_button">
+                    <input type="submit" id = "submit_button">                    
+                </fieldset>
+            </form>
+                
+        </div>
+        <div class="video_container">
+            
+            <iframe 
+                src="https://www.youtube.com/embed/example" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</body>
+
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Highlight Viewer Player</title>
+    <link rel="stylesheet" href="Video Viewer Style.css">
+</head>
+<body>
+    <h1 id="Video_Title"><u> Randomly Generated Highlights</u></h1>
+    <div class="outside_border">
+        <div class="background_image_container">
+            <a href="/"><img id="soccer_template" src="images/soccer_screen.png" alt="Soccer Template"></a>
+        </div>
+        <div class="video_container">
+            
+            <iframe 
+                src= <%- src %>
+                title="YouTube video player" 
+                frameborder="0" 
+                allowfullscreen>
+            </iframe>
+        </div> <br>
+        <!-- <h2><a href="/">Press Here to Search For A New Video</a></h2> -->
+    </div>
+</body>
+</html>
